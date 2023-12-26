@@ -1,0 +1,60 @@
+.LImg{
+    width: 380px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.Iinfo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Minfo{
+
+   
+    height: 90%;
+    justify-content: end;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.infoName{
+   
+    width: 100%;
+    height:8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.infoLawyers{
+    flex: 1;
+    border: 1px solid black;
+    
+    justify-content: center;
+  } 
+
+@media screen and (max-width: 768px) {
+  .infoContainer {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .Iinfo,
+  .infoLawyers {
+    width: 100%;
+    order: unset;
+  }
+}

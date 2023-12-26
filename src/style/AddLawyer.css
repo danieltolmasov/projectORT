@@ -1,0 +1,32 @@
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.icontainer {
+  display: flex;
+  justify-content: end;
+  padding-left: 20%;
+  overflow: hidden;
+  
+}
+.infoL{
+  width: 90%;
+ padding-right:10%;
+}
+
+.right {
+  
+  
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+

@@ -1,0 +1,46 @@
+.QContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Accordion {
+    width: 60vw;
+    padding-top: 3%;
+    justify-content: center;
+  }
+
+
+.ansBody{
+    justify-content: center;
+    border: 1px solid black;
+}
+
+
+.textUp{
+    font-size: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.inputQue{
+    
+  
+        border: none;
+        border-bottom: 2px solid black;
+        width: 50vw;
+  
+}
+
+.upAnswer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Date{
+    justify-content: end;
+}
+
+.QueAns{
+    font-size: 1.2em;
+}

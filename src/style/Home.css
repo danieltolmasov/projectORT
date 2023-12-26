@@ -1,0 +1,12 @@
+.homeText{
+    font: italic 2.4em "Fira Sans", serif;
+    color: #141413;
+    text-shadow: rgb(239, 212, 105) 1px 0 10px;
+}
+
+
+
+
+.text-center{
+    padding-bottom: 7%;
+}
